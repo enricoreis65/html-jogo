@@ -1,0 +1,22 @@
+html{font-size: 16px;}
+
+body{ /*pai elementos*/
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-bottom: .1rem solid black;
+}
+h1{position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 1rem;
+font-size: 3rem;
+}
+
+footer{ display: flex;
+        position: absolute;
+        bottom: 0 ;
+        flex-direction: row;
+        border:.1rem solid black;}
