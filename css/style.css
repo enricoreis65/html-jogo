@@ -117,3 +117,50 @@ border-width:10%;}
     width: 100%;
     font-size: 25px
 }
+.participantes2{display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;}
+
+.participantes2 > li{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem; 
+   width: 30%;
+    font-size: 18px
+}
+
+.conv{display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;}
+
+.conversas{display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;}
+
+.conversas > li{display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem; 
+   width: 50%;
+    font-size: 18px}
+.diminuir{height: 50px;}
+
+
+
+footer > .linhas{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.centro{display: flex;
+margin-bottom:2rem ;
+    justify-content: center;}
+
+.centro > input{display: flex;
+
+    justify-content: center;
+    width: 40%;}
