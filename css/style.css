@@ -55,26 +55,26 @@ header { /*yourhealth- titulo*/
 
 }
 .buscar{
-    border-right: 0;
-
     
+}
+.icones{padding-right: 0;
+    padding-left: 0;
+    float: right;}
+
+input{padding-right: 0;
+    padding-left: 0;
+    float: right;
 }
 
 .search-container {
-    display: fixed;
+    display:flex;
+    justify-content: right;
     flex-direction: column;
-
-    
     font-size: 17px;
-    border-right: 0;
-    
-  }
+      }
 ul{
     display: flex;
-    
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     width: 100%;
     margin-bottom: 2rem;
     margin-top: 1rem;
@@ -93,3 +93,19 @@ form{width: 100%;}
     padding: 10px 24px; 
     width: 100%;
     }
+
+h2{font-size: 18px;
+margin-left:1rem ;
+margin-right: 60%;
+margin-top:2rem;
+border-bottom: .1rem solid black ;
+border-width:10%;}
+
+
+.participantes > li{display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    margin-left: 3rem;
+    width: 100%;
+    font-size: 25px
+}
