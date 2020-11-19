@@ -94,9 +94,17 @@ form{width: 100%;}
     width: 100%;
     }
 
+.botoes_meio_jogo2 >button{
+    background-color: gray; 
+    border: 1px solid black; 
+    color: rgb(70, 70, 70); 
+    padding: 10px 24px; 
+    margin-bottom: 2rem;
+    width: 33%;
+    }
 h2{font-size: 18px;
 margin-left:1rem ;
-margin-right: 60%;
+margin-right: 30%;
 margin-top:2rem;
 border-bottom: .1rem solid black ;
 border-width:10%;}
