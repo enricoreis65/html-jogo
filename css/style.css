@@ -14,6 +14,7 @@ h1{position: relative;
     align-items: center;
     margin: 1rem;
     font-size: 3rem;
+
 }
 
 footer{ position: fixed;
@@ -25,8 +26,8 @@ footer{ position: fixed;
 
 
 .btn-group >button {
-    background-color: green; 
-    border: 1px solid rgba(41, 102, 0, 0.986); 
+    background-color: #1565c0; 
+    border: 1px solid #0088d1; 
     color: black; 
     padding: 10px 24px; 
     cursor: pointer; 
@@ -36,7 +37,7 @@ footer{ position: fixed;
 
 
 .botoes_meio >button{
-    background-color: white; 
+    background-color: #ffffff; 
     border: 1px solid black; 
     color: black; 
     padding: 10px 24px; 
@@ -49,7 +50,8 @@ header { /*yourhealth- titulo*/
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: .1rem solid black;}
+    border-bottom: .1rem solid black;
+    background-color: #1565c0;}
     
 .buscar{
     justify-content: right;
@@ -94,9 +96,9 @@ form{width: 100%;}
     }
 
 .botoes_meio_jogo2 >button{
-    background-color: gray; 
-    border: 1px solid black; 
-    color: rgb(70, 70, 70); 
+    background-color: #1565c0; 
+    border: 1px solid #0088d1;  
+    color: black; ; 
     padding: 10px 24px; 
     margin-bottom: 2rem;
     width: 33%;
@@ -232,8 +234,8 @@ margin:1rem;}
     padding-bottom: 2rem;
     }
 .ui-datepicker {
-background: rgb(158, 158, 158);
-color: #EEE;
+background: #5e92f3;
+color: #ffffff;
 }
 
 .switch {
@@ -276,11 +278,11 @@ transition: .4s;
 }
 
 input:checked + .slider {
-background-color: #2196F3;
+background-color:#5db8ff;
 }
 
 input:focus + .slider {
-box-shadow: 0 0 1px #2196F3;
+box-shadow: 0 0 1px#5db8ff;
 }
 
 input:checked + .slider:before {
@@ -299,12 +301,12 @@ border-radius: 50%;
 }
 p{margin: .5rem;}
 
-.ativado{background-color: rgb(1, 8, 73);
-    color: rgb(255, 253, 253);}
+.ativado{background-color: #003c8f;
+    color: rgb(255, 255, 255);}
 
 .ui-timepicker {
-    background: rgb(158, 158, 158);
-    color: #EEE;
+    background:#5e92f3;
+    color: #FFFFFF;
     }
 
 .tamanho{width: 50px;}
