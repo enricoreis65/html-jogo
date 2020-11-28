@@ -1,3 +1,4 @@
+/* base */
 html{font-size: 16px;
 width: 100%;}
 
@@ -8,6 +9,7 @@ body{ /*pai elementos*/
     background-color: #EEEEEE;
     
 }
+/* titulo principla de cada pagina */
 h1{position: relative;
     display: flex;
     justify-content: center;
@@ -15,10 +17,10 @@ h1{position: relative;
     margin: 1rem;
     font-size: 3rem;
 }
-
+/* informacao so menu , uma variacao do tipulo 2 */
 .info{margin:0;
     border-bottom: .1rem solid black ;}
-
+/* a parte de baixo do app */
 footer{ position: fixed;
     left: 0;
     bottom: 0;
@@ -26,7 +28,7 @@ footer{ position: fixed;
     text-align: center;
 }
 
-
+/* no grupo de botoes explicando como os botoes padroes sao */
 .btn-group >button {
     background-color: #1565c0; 
     border: 1px solid #0088d1; 
@@ -37,7 +39,7 @@ footer{ position: fixed;
     width:33.333%;
     }
 
-
+/* botao  que fica do meio  */
 .botoes_meio >button{
     background-color: #ffffff; 
     border: 1px solid black; 
@@ -46,7 +48,7 @@ footer{ position: fixed;
     cursor: pointer; 
     width: 100%
 }
-
+/* cabacalho */
 header { /*yourhealth- titulo*/
     position: relative;
     display: flex;
@@ -54,26 +56,28 @@ header { /*yourhealth- titulo*/
     align-items: center;
     border-bottom: .1rem solid black;
     background-color: #1565c0;}
-    
+/*  posicao da barra de buscar*/
 .buscar{
     justify-content: right;
     flex-direction: column;
     }
+/* posicao de alguns itens */
 .icones{padding-right: 0;
     padding-left: 0;
     float: right;}
-
+/* posicao dos inputs */
 input{padding-right: 0;
     padding-left: 0;
     float: right;
 }
-
+/* conteiudo dentro da barra de pesquisa */
 .search-container {
     display:flex;
     justify-content: right;
     flex-direction: column;
     font-size: 17px;
       }
+/* listas */
 ul{
     display: flex;
     flex-direction: column;
@@ -82,17 +86,18 @@ ul{
     margin-top: 1rem;
     
 }
-
+/* elementos dentro da lista agenda */
 .agenda>li{display: flex;
    }
-
+/* elementos gerais das listas */
 li{display: flex;
     justify-content: center;
     margin: 0.01rem;
     width: 100%;
 }
-form{width: 100%;}
 
+form{width: 100%;}
+/* outro tpo de botao do meio */
 .botoes_meio_jogo >button{
     background-color: gray; 
     border: 1px solid black; 
@@ -100,7 +105,7 @@ form{width: 100%;}
     padding: 10px 24px; 
     width: 100%;
     }
-
+/* outro tipo de botao que fica no meio */
 .botoes_meio_jogo2 >button{
     background-color: #1565c0; 
     border: 1px solid #0088d1;  
@@ -109,6 +114,7 @@ form{width: 100%;}
     margin-bottom: 2rem;
     width: 33%;
     }
+/* os titulos decundarios de cada pagina */
 h2{font-size: 18px;
 margin-left:1rem ;
 margin-right: 30%;
@@ -116,7 +122,7 @@ margin-top:2rem;
 border-bottom: .1rem solid black ;
 }
 
-
+/* posicao de cada membro da chamada  */
 .participantes > li{display: flex;
     justify-content: flex-start;
     margin: 1rem;
@@ -124,11 +130,12 @@ border-bottom: .1rem solid black ;
     width: 100%;
     font-size: 25px
 }
+/* participantes na outra pagina */
 .participantes2{display: flex;
     align-items: flex-end;
     justify-content: flex-start;
 }
-
+/* os elementos na lista dos participantes  */
 .participantes2 > li{
     display: flex;
     justify-content: flex-start;
@@ -136,26 +143,27 @@ border-bottom: .1rem solid black ;
    width: 30%;
     font-size: 18px
 }
-
+/* variacao das converas */
 .conv{display: flex;
     flex-direction: row;
     width: 100%;
     margin-bottom: 2rem;
     margin-top: 1rem;}
-
+/* posicao conversas */
 .conversas{display: flex;
     align-items: flex-start;
     justify-content: flex-start;}
-
+/* elementos da lista conversas */
 .conversas > li{display: flex;
     justify-content: flex-start;
     margin-bottom: 1.5rem; 
    width: 50%;
     font-size: 18px}
+ /* diminuindo imagens  */
 .diminuir{height: 50px;}
 
 
-
+/* parte de baixo mas quando temos que colocar uma divisoria */
 footer > .linhas{ display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,16 +171,16 @@ footer > .linhas{ display: flex;
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
-
+/* quando precisa ficar no centro */
 .centro{display: flex;
 margin-bottom:2rem ;
     justify-content: center;}
-
+/* inputs no centro */
 .centro > input{display: flex;
 
     justify-content: center;
     width: 40%;}
-
+/* lista agenda */
 .agenda{display: flex;
     flex-direction: column;
     width: 100%;
@@ -181,16 +189,17 @@ margin-bottom:2rem ;
     
     
 }
-
+/* linhas  uma parte do codigo consiste em varias listas dentro de varias listas entao essa deixa as coisas na poscao horizontal*/
 .lines{display: flex;
     flex-direction: column;
     margin-top:0;
     }
+    /* elementos da lista linhas */
 .lines>li{display: flex;
     margin-left: 5rem;
     justify-content: flex-start;
     margin-bottom:.3rem ;}
-
+/* coloca uma bolinha antes desses elementos */
 .lines ::before {content: "•";
     font-size: 150%;
     line-height: 0;
@@ -199,38 +208,49 @@ margin-bottom:2rem ;
     top: .5rem;
     color: black;}
 
+
+
+/* PARTE MAIS IMPORTANTE DO CODIGO!!!! faz funcionar listas dentro de listas  */
 .col{display: flex;
     flex-direction: row;
     width: 100%;
    }
+   /* quando o col é uma lista tambem */
 .col>li{ margin-bottom: 2rem;
     margin-top: 1rem;
     border-bottom: .1rem solid black ;}
+
+/* conteudos em outras linhas */
 .liness{display: flex;
     flex-direction: column;
     margin-top:0;
     }
+/* elementoss da lista liness */
 .liness>li{display: flex;
     justify-content: start;
     margin-left: 2rem;
     margin-bottom:.3rem ;}
-
+/* tamanho do menu */
 .menu{display: flex;
 margin-right: 95%;
 }
+/* coisas em um canto */
 .canto{display: flex;
     flex-direction: row-reverse;
     margin-left: 95%;}
-
+/* lista ag */
 .ag{display: flex;
     flex-direction: column;
 }
-
+/* elementos da lista ag */
 .ag>li{margin-bottom:1rem;
     
 }
+/* botoes da lista ag */
 .ag>li>button{padding: .5rem;
 margin:1rem;}
+
+/* lista calendario */
 .calendario{display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -239,11 +259,13 @@ margin:1rem;}
     padding-top: 2rem;
     padding-bottom: 2rem;
     }
+
+/* parte com java da data*/
 .ui-datepicker {
 background: #5e92f3;
 color: #ffffff;
 }
-
+/* o switch */
 .switch {
     position: relative;
     display: inline-block;
@@ -251,14 +273,14 @@ color: #ffffff;
     height: 34px;
     }
     
-    /* Hide default HTML checkbox */
+    /* o defaut do switch*/
 .switch input {
 opacity: 0;
 width: 0;
 height: 0;
 }
 
-/* The slider */
+/* a bolinha do switch */
 .slider {
 position: absolute;
 cursor: pointer;
@@ -270,6 +292,8 @@ background-color: #ccc;
 
 transition: .4s;
 }
+/* a bolinha antes de ativar */
+
 
 .slider:before {
 position: absolute;
@@ -282,7 +306,7 @@ background-color: white;
 
 transition: .4s;
 }
-
+/* faz a bolinha ficar bonita e se mover */
 input:checked + .slider {
 background-color:#5db8ff;
 }
@@ -295,7 +319,7 @@ input:checked + .slider:before {
 transform: translateX(26px);
 }
 
-/* Rounded sliders */
+
 .slider.round {
 border-radius: 34px;
 }
@@ -303,35 +327,44 @@ border-radius: 34px;
 .slider.round:before {
 border-radius: 50%;
 }
-p{margin: .5rem;}
 
+/* textos */
+p{margin: .5rem;}
+/* icone ativado */
 .ativado{background-color: #003c8f;
     color: rgb(255, 255, 255);}
+    /* icone desativado */
 .desativado{background-color: #ccc;
     color: rgb(255, 255, 255);}
-
+/* parte do java da hora */
 .ui-timepicker {
     background:#5e92f3;
     color: #FFFFFF;
     }
-
+/* tamanho de imagens */
 .tamanho{width: 50px;}
+/* aumenta outras imagens */
 .aumentar{width:50%;}
-
+/* titulos terciarisa */
 h3{font-size: 1.5rem;}
+
+/* marcadores */
 b{font-weight:bold;
 }
+/* botao ligado menu  */
 .formatg {
     background-color:rgb(0, 180, 54);
    }
+   /* botao desligado menu */
 .formatr{background-color:rgba(214, 4, 4, 0.808)}
-
+/* aumenta o tamanho de outra forma */
 .aumentar2{width:10rem;}
-
+/* nao pensei em outro nome mas muda  a margem */
 .fo{margin-bottom: 3rem;}
-
+/* esconde */
 .hidden {
     display: none;
 }
+/* aparece */
 .show {
    display: inline}
