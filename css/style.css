@@ -305,7 +305,9 @@ p{margin: .5rem;}
 
 .ativado{background-color: #003c8f;
     color: rgb(255, 255, 255);}
-
+.desativado{background-color: #ccc;
+    color: rgb(255, 255, 255);}
+}
 .ui-timepicker {
     background:#5e92f3;
     color: #FFFFFF;
@@ -325,3 +327,9 @@ b{font-weight:bold;
 .aumentar2{width:10rem;}
 
 .fo{margin-bottom: 3rem;}
+
+.hidden {
+    display: none;
+}
+.show {
+   display: inline

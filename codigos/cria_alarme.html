@@ -25,9 +25,9 @@
             </li>
             <li>
 
-            <button class="ativado">Tempo</button>
+            <button id="myButtonte" onclick="ativar(datepicker)">Tempo</button>
             
-            <button><a href="horario.html">evento</a></button>
+            <button id="myButtonhr" onclick="ativar(timepicker)">evento</button>
             
             </li>
             
@@ -35,9 +35,14 @@
         
             </ul>
             <ul class="calendario" >
-                
-                <li>Escolha o dia</li> 
-                <li><input type="text" id="datepicker"></li>
+                <li >
+                    <li id="d/h"></li>
+                    <li>
+                        <input class="hidden" type="text" id="datepicker">
+                        <input class="hidden" type="time" id="timepicker">
+                        
+                    </li>
+                </li>
             </ul>
             
             <u class="centro">

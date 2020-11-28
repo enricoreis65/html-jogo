@@ -14,7 +14,7 @@ function estudar() {
   document.getElementById("demo").innerHTML = "Status:  Se concentre hora de estudar";
   document.getElementById('myButton1').className = 'formatg';
   document.getElementById('myButton2').className = 'formatr';
-  btn.setBackground(Color.BLACK);
+  ;
 
 }
 
@@ -23,3 +23,24 @@ function jogar() {
   document.getElementById('myButton2').className = 'formatg';
   document.getElementById('myButton1').className = 'formatr';
 }
+
+
+function ativar(botao) {
+  var botao;
+  if (botao === datepicker) {
+  document.getElementById("myButtonte").className = "ativado";
+  document.getElementById('myButtonhr').className = 'desativado';
+  document.getElementById("d/h").innerHTML = "Escolha o dia";
+  document.getElementById('timepicker').className = 'hidden';
+  document.getElementById('datepicker').className = 'show';
+  } else {
+    document.getElementById("myButtonte").className = "desativado";
+    document.getElementById('myButtonhr').className = 'ativado';
+    document.getElementById("d/h").innerHTML = "Escolha a hora";
+    document.getElementById('datepicker').className = 'hidden';
+    document.getElementById('timepicker').className = 'show';
+  }
+
+
+}
+
