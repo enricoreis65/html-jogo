@@ -82,6 +82,10 @@ ul{
     margin-top: 1rem;
     
 }
+
+.agenda>li{display: flex;
+   }
+
 li{display: flex;
     justify-content: center;
     margin: 0.01rem;
@@ -198,10 +202,10 @@ margin-bottom:2rem ;
 .col{display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 2rem;
+   }
+.col>li{ margin-bottom: 2rem;
     margin-top: 1rem;
     border-bottom: .1rem solid black ;}
-
 .liness{display: flex;
     flex-direction: column;
     margin-top:0;

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
     <head >
         <title>app</title>  <!-- Nome do app-->
@@ -18,46 +19,55 @@
         </header>
         <a class="menu" href="agenda.html"><img  src="../imagens/voltar.png" alt="back"></a>
         <ul>
-            <ul class="ag">
-            <li >
+            <li class="col">
+                <ul class="ag">
+                    <li >
         
-            <input type="text" placeholder="Adicionar Titulo" name="search">
-            </li>
-            <li>
+                        <input type="text" placeholder="Adicionar Titulo" name="search">
+                    </li>
+                    <li>
 
-            <button id="myButtonte" onclick="ativar(datepicker)">Tempo</button>
+                        <button id="myButtonte" onclick="ativar(datepicker)">Tempo</button>
             
-            <button id="myButtonhr" onclick="ativar(timepicker)">evento</button>
+                        <button id="myButtonhr" onclick="ativar(timepicker)">evento</button>
             
+                    </li>
+            
+                </ul>
             </li>
-            
-        
-        
-            </ul>
-            <ul class="calendario" >
-                <li >
-                    <li id="d/h"></li>
+
+            <li class="col">
+                <ul class="calendario" >
+                    <li >
+                        <li id="d/h">--
+                        </li>
                     <li>
                         <input class="hidden" type="text" id="datepicker">
-                        <input class="hidden" type="time" id="timepicker">
-                        
+                        <input class="hidden" type="time" id="timepicker">  
                     </li>
-                </li>
-            </ul>
-            
-            <u class="centro">
-                <li><p>Lembrar</p>
+                
+                </ul>
+            </li>
+            <li class="col">
+                <ul class="centro">
+                    <li>
+                        <p>Lembrar</p>
                  
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                </li>
-            </u>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    </li>
+                </ul>
+            </li>
         </ul>
-        <footer><form method="get" action="agenda.html">
+        <footer>
+            <form method="get" action="agenda.html">
             <div class="botoes_meio_jogo2" >
-                <button >Salvar</button></footer>
+                <button >Salvar</button>
+            </div>
+        </form>
+    </footer>
         
         </body>
         </html>
