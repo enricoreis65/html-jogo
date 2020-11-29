@@ -1,29 +1,28 @@
 $( function() {
     $( "#datepicker" ).datepicker();
   } );
+  // fuuncao que faz as datas funcionaram
 $(function(){
 $('#timepicker').timepicker();});
+// funcao que fas=z as horas funcionaram 
 
-function myFunction() {
-    var x = document.getElementById("myTextarea").value;
-    document.getElementById("myProgress").value = x;
-  }
 
 
 function estudar() {
   document.getElementById("demo").innerHTML = "Status:  Se concentre hora de estudar";
   document.getElementById('myButton1').className = 'formatg';
   document.getElementById('myButton2').className = 'formatr';
-  ;
+  
 
 }
+// troca a cor das opcoes
 
 function jogar() {
   document.getElementById("demo").innerHTML = "Status:  Hora de se divertir !!";
   document.getElementById('myButton2').className = 'formatg';
   document.getElementById('myButton1').className = 'formatr';
 }
-
+// troca a cor das opcoes
 
 function ativar(botao) {
   var botao;
@@ -43,4 +42,4 @@ function ativar(botao) {
 
 
 }
-
+// troca o conteudo da pagina ps deu um trampo pra fazer

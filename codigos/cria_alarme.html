@@ -14,11 +14,13 @@
        
     </head>
     <body>
+        <!-- cabecalho -->
         <header>
         <h1> Calendar</h1>
         </header>
         <a class="menu" href="agenda.html"><img  src="../imagens/voltar.png" alt="back"></a>
         <ul>
+            <!-- listas de opcoes e botoes -->
             <li class="col">
                 <ul class="ag">
                     <li >
@@ -26,7 +28,7 @@
                         <input type="text" placeholder="Adicionar Titulo" name="search">
                     </li>
                     <li>
-
+<!-- botoes podem estar ativados ou nao -->
                         <button id="myButtonte" onclick="ativar(datepicker)">Tempo</button>
             
                         <button id="myButtonhr" onclick="ativar(timepicker)">evento</button>
@@ -35,7 +37,7 @@
             
                 </ul>
             </li>
-
+<!-- elemento que cada botao ativado deve mostrar  -->
             <li class="col">
                 <ul class="calendario" >
                     <li >
@@ -48,6 +50,7 @@
                 
                 </ul>
             </li>
+            <!-- o negocinho que ativa ou desativa alarme -->
             <li class="col">
                 <ul class="centro">
                     <li>
@@ -61,7 +64,9 @@
                 </ul>
             </li>
         </ul>
+        <!-- parte que so sei esrever em ingles again -->
         <footer>
+            <!-- botao nessa parte -->
             <form method="get" action="agenda.html">
             <div class="botoes_meio_jogo2" >
                 <button >Salvar</button>
