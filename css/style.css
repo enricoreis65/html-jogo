@@ -264,6 +264,7 @@ margin:1rem;}
 .ui-datepicker {
 background: #5e92f3;
 color: #ffffff;
+cursor: pointer;
 }
 /* o switch */
 .switch {
@@ -368,3 +369,7 @@ b{font-weight:bold;
 /* aparece */
 .show {
    display: inline}
+
+.destaque{margin-bottom: 5rem;
+color:#fff;
+background-color: #003c8f;}
