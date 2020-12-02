@@ -157,6 +157,8 @@ border-bottom: .1rem solid black ;
 /* elementos da lista conversas */
 .conversas > li{display: flex;
     justify-content: flex-start;
+    white-space: nowrap;
+
     margin-bottom: 1.5rem; 
    
     font-size: 18px}
