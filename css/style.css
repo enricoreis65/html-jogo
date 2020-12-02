@@ -158,7 +158,7 @@ border-bottom: .1rem solid black ;
 .conversas > li{display: flex;
     justify-content: flex-start;
     margin-bottom: 1.5rem; 
-   width: 50%;
+   
     font-size: 18px}
  /* diminuindo imagens  */
 .diminuir{height: 50px;}
