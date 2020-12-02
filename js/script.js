@@ -1,3 +1,4 @@
+
 $( function() {
     $( "#datepicker" ).datepicker();
   } );
@@ -5,7 +6,6 @@ $( function() {
 $(function(){
 $('#timepicker').timepicker();});
 // funcao que fas=z as horas funcionaram 
-
 
 
 function estudar() {
@@ -31,6 +31,7 @@ function ativar(botao) {
   document.getElementById('myButtonhr').className = 'desativado';
   document.getElementById("d/h").innerHTML = "Escolha o dia";
   document.getElementById('timepicker').className = 'hidden';
+  document.getElementById('timepicker2').className = 'hidden';
   document.getElementById('datepicker').className = 'show';
   } else {
     document.getElementById("myButtonte").className = "desativado";
@@ -38,8 +39,27 @@ function ativar(botao) {
     document.getElementById("d/h").innerHTML = "Escolha a hora";
     document.getElementById('datepicker').className = 'hidden';
     document.getElementById('timepicker').className = 'show';
+    document.getElementById('timepicker2').className = 'show';
   }
 
 
 }
 // troca o conteudo da pagina ps deu um trampo pra fazer
+
+
+
+function estudo() {
+  
+  document.getElementById('mystudy').className = 'formatg';
+  document.getElementById("mygame").className = 'formatr';
+  
+
+}
+// troca a cor das opcoes
+
+function jogos() {
+ 
+  document.getElementById('mygame').className = 'formatg';
+  document.getElementById('mystudy').className = 'formatr';
+}
+
