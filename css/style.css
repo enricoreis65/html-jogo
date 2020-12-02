@@ -174,13 +174,14 @@ footer > .linhas{ display: flex;
 }
 /* quando precisa ficar no centro */
 .centro{display: flex;
-margin-bottom:2rem ;
+    
+    margin-bottom:2rem ;
     justify-content: center;}
 /* inputs no centro */
 .centro > input{display: flex;
-
+    
     justify-content: center;
-    width: 40%;}
+    width: 60%;}
 /* lista agenda */
 .agenda{display: flex;
     flex-direction: column;
