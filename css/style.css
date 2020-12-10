@@ -1,6 +1,7 @@
 /* base */
 html{font-size: 16px;
-width: 100%;}
+width: 100%;
+}
 
 body{ /*pai elementos*/
     display:flex;
@@ -12,6 +13,7 @@ body{ /*pai elementos*/
 /* titulo principla de cada pagina */
 h1{position: relative;
     display: flex;
+    font-family: 'Actor';
     justify-content: center;
     align-items: center;
     margin: 1rem;
@@ -92,6 +94,7 @@ ul{
    }
 /* elementos gerais das listas */
 li{display: flex;
+    font-family: 'Arvo';
     justify-content: center;
     margin: 0.01rem;
     width: 100%;
@@ -117,6 +120,7 @@ form{width: 100%;}
     }
 /* os titulos decundarios de cada pagina */
 h2{font-size: 18px;
+font-family: 'Actor';
 margin-left:1rem ;
 margin-right: 30%;
 margin-top:2rem;
@@ -138,6 +142,7 @@ border-bottom: .1rem solid black ;
 }
 /* os elementos na lista dos participantes  */
 .participantes2 > li{
+    
     display: flex;
     justify-content: flex-end;
     margin-bottom: 1.5rem; 
@@ -351,7 +356,8 @@ p{margin: .5rem;}
 /* aumenta outras imagens */
 .aumentar{width:50%;}
 /* titulos terciarisa */
-h3{font-size: 1.5rem;}
+h3{font-size: 1.5rem;
+    font-family: 'Actor';}
 
 /* marcadores */
 b{font-weight:bold;
@@ -379,3 +385,5 @@ color:#fff;
 background-color: #003c8f;}
 
 .aumentar3{width:100%}
+
+button{font-family: 'Actor';}
